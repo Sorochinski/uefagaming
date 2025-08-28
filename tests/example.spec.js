@@ -13,4 +13,9 @@ test('UEFA Gaming basic UI checks', async ({ page }) => {
   await page.getByRole('button', { name: 'Log in', exact: true }).click();
 
   await expect(page.locator('#username')).toBeVisible();
+
+  await expect(page.locator('#username')).toBeVisible();
+
+
+  await expect(page.locator('#username')).toBeVisible();
 });
