@@ -21,7 +21,7 @@ test('UEFA Gaming login flow', async ({ page }) => {
   await expect(usernameField).toBeVisible();
   await expect(passwordField).toBeVisible();
 
-  await usernameField.fill('kobiton1@mailinator.com');
+  await usernameField.fill('kobiton2@mailinator.com');
   await passwordField.fill('Test123456!');
   await submitButton.click();
 
